@@ -1,0 +1,53 @@
+.add-product-container {
+    margin-top: 50px; /* Adjust the margin-top value to increase the gap between navbar and add product form */
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: calc(100vh - 100px); /* Set maximum height to viewport height minus navbar height */
+}
+
+
+.add-product-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-product-form {
+    width: 100%;
+    max-width: 500px; /* Set maximum width for better responsiveness */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-product-form label {
+    font-weight: bold;
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="file"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.add-product-form input[type="file"] {
+    padding: 8px; /* Adjust padding for file input */
+}
+
+.add-product-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}

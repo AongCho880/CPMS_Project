@@ -1,0 +1,94 @@
+/* .table-fixed {
+    width: 100%;
+  }
+  
+  .table-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .table-body {
+    max-height: 400px;
+    overflow-y: auto;
+  } */
+
+
+
+
+
+
+
+
+
+
+  /* CustDash.css */
+
+.navbar {
+  height: 75px; /* Adjust the height as needed */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+.navbar-nav .nav-link {
+  padding-top: 25px !important; /* Adjust the top padding of the nav links */
+  padding-bottom: 25px !important; /* Adjust the bottom padding of the nav links */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust the font size of the brand */
+}
+
+/* Optional: You can remove any existing styles related to the navbar if you have */
+.navbar-custom {
+  background-color: #343a40; /* Set navbar background color */
+}
+
+.nav-link {
+  color: #000000 !important; /* Set navbar link color */
+}
+
+.nav-link:hover {
+  color: #ffffff !important; /* Set navbar link hover color */
+  background-color: #343a40;
+}
+
+.container {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.login-form {
+  max-width: 300px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+}
+
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+/* Style for the container holding shop owner information */
+.shop-owner-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+}
+
+/* Style for the image */
+.shop-owner-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+  
