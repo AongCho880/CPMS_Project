@@ -467,7 +467,7 @@ const UnsolvedRegShopReport = () => {
                 <td>
                   <img
                     src={selectedShop && selectedShop.s_photo}
-                    alt="Shop Photo"
+                    alt="Shop Img"
                     style={{
                       width: "70px",
                       height: "70px",
@@ -569,22 +569,6 @@ const UnsolvedRegShopReport = () => {
                   />
                 </td>
 
-                {/* <td>
-                    <img
-                      src={selectedReport && selectedReport.c_bscknid}
-                      alt="Selfie"
-                      style={{
-                        width: "70px",
-                        height: "70px",
-                        objectFit: "cover",
-                        borderRadius: "50%",
-                        overflow: "hidden",
-                        marginRight: "10px",
-                        cursor: "pointer" // Add cursor pointer for clickable effect
-                      }}
-                      onClick={() => handleCPhotoClick(selectedReport)}
-                    />
-                  </td> */}
                 <td>
                   {selectedReport && selectedReport.c_phone && (
                     <a
@@ -624,7 +608,7 @@ const UnsolvedRegShopReport = () => {
         <Modal.Body style={{ display: "flex", justifyContent: "center" }}>
           <img
             src={cPhotoUrl}
-            alt="Full Size Photo"
+            alt="Full Size Img"
             style={{ maxWidth: "100%", maxHeight: "80vh" }}
           />
         </Modal.Body>
@@ -650,7 +634,7 @@ const UnsolvedRegShopReport = () => {
           {cnfPhotoUrl !== "" && (
             <img
               src={cnfPhotoUrl}
-              alt="Full Size NID Photo"
+              alt="Full Size NID Img"
               style={{
                 maxWidth: "45%",
                 maxHeight: "80vh",
@@ -661,7 +645,7 @@ const UnsolvedRegShopReport = () => {
           {cnbPhotoUrl !== "" && (
             <img
               src={cnbPhotoUrl}
-              alt="Full Size Shop Photo"
+              alt="Full Size Shop Img"
               style={{
                 maxWidth: "45%",
                 maxHeight: "80vh",
@@ -696,7 +680,7 @@ const UnsolvedRegShopReport = () => {
         <Modal.Body style={{ display: "flex", justifyContent: "center" }}>
           <img
             src={shopPhotoUrl}
-            alt="Full Size Photo"
+            alt="Full Size Img"
             style={{ maxWidth: "100%", maxHeight: "80vh" }}
           />
         </Modal.Body>
@@ -718,7 +702,7 @@ const UnsolvedRegShopReport = () => {
         <Modal.Body style={{ display: "flex", justifyContent: "center" }}>
           <img
             src={productPhotoUrl}
-            alt="Full Size Photo"
+            alt="Full Size Img"
             style={{ maxWidth: "100%", maxHeight: "80vh" }}
           />
         </Modal.Body>
