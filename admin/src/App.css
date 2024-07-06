@@ -1,0 +1,49 @@
+.banner{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+  /* background-image: url('../images/pic16.png'); */
+}
+
+.container-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box-shop {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-box-shop h2 {
+  text-align: center;
+}
+
+/* .form-label-shop {
+  font-weight: normal;
+}
+
+.btn-shop {
+  width: 100%;
+  margin-top: 10px;
+} */
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 12px;
+}
+

@@ -1,0 +1,56 @@
+# Dependency directories
+node_modules/
+admin/node_modules/
+shop/node_modules/
+
+# Build directories
+dist/
+build/
+client/build/
+server/build/
+
+# Environment variables
+.env
+client/.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency files
+package-lock.json
+client/package-lock.json
+yarn.lock
+client/yarn.lock
+
+# Optional npm cache directory
+.npm
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories/files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# PostgreSQL data and dump files
+*.pgdata
+*.pgdump
+
+# React specific files
+client/.next/
+client/.cache/

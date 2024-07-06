@@ -1,0 +1,53 @@
+body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Disable scrolling */
+}
+
+.report-page-container {
+  width: 100%; /* Set width to 100vw for full viewport width */
+  height: 100%;
+  padding: 50px 0 20px; /* Adjust the top padding to add space between navbar and report heading */
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-page-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.report-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.report-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+  background-color: #0056b3;
+}
+
+.report-button.active {
+  background-color: #0056b3;
+}
+
+.report-content {
+  text-align: center;
+}

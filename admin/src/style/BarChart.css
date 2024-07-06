@@ -1,0 +1,30 @@
+.bar-chart-container {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  height: 400px;  /* Adjust chart height as needed */
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bar-label {
+  width: 120px;
+}
+
+.bar-fill {
+  background-color: #007bff;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.bar-value {
+  width: 40px;
+}
