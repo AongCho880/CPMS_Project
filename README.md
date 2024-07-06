@@ -24,3 +24,6 @@ This is the development branch
 - npm start
 - Ctrl + c to exit
 
+----- Database -------
+- edit db.js file as your own databse system required
+- edit configdb.sh locate in bin directory as you end
